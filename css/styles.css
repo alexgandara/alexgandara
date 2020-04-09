@@ -6,22 +6,79 @@ propiedades
 valores
 */
 
+
 body {
     font-family:  Audiowide;
-    background: rgb(147, 143, 165);
+    
 }
 
+header {
+    background: rgb(98, 94, 112);
+    color: mistyrose;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
 
-body
-hero
-
-{
-    font-family: Caveat;
+.header a {
+    color: rgb(230, 203, 172);
+    text-decoration: none;
     
 }
 
 
 
+
+
+
+.hero
+{
+    font-family: Caveat;
+    background-image: url("../images/gandara.png");
+    background-position-y: center;
+  
+    padding: 10px;
+    background-color: rgb(184, 181, 192);
+    background-size: 225px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    height: 300px; 
+    color:rgb(138, 90, 34);
+    border: 1px solid rgb(39, 17, 26);
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+} 
+
+
+
+
+
+.projecto01,
+.projecto02,
+.projecto03,
+.projecto04,
+.portfolio,
+.contacto
+{
+    border: 1px solid rgb(119, 51, 79);
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.portfolio
+{
+    background-image: url("../images/java_old.jpeg");
+    background-size: 200px 200px;
+    background-position-x: center;
+    background-position-y: center;
+    border: 2px solid rgb(189, 82, 127);
+    border-radius: 4px;
+    margin: 10px;
+    height: 420px; 
+    background-repeat: no-repeat;
+}
 
 h1,
 h2
@@ -37,14 +94,20 @@ h1 {
 }
 
 
+h1 strong {
+    color: rgb(55, 55, 128);
+}
+
+
 h3
 {
     color:midnightblue
 }
+
 h4
 {
     text-transform: uppercase;
-    color: lightgreen;
+    color: rgb(108, 179, 108);
 }
 
 
@@ -54,10 +117,6 @@ h4
 }
 
 
-.hero {
-    height: 600px;
-}
-
 .portafolio-detalle {
     width: 500px;
     
@@ -65,4 +124,4 @@ h4
 
 .java-figure {
     width: 500px;
-}
+} 
