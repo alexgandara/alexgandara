@@ -7,5 +7,62 @@ valores
 */
 
 body {
-    background: gray;
+    font-family:  Audiowide;
+    background: rgb(147, 143, 165);
+}
+
+
+body
+hero
+
+{
+    font-family: Caveat;
+    
+}
+
+
+
+
+h1,
+h2
+ {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -.5px;
+    
+}
+
+h1 {
+    
+    line-height: 1.01em;
+}
+
+
+h3
+{
+    color:midnightblue
+}
+h4
+{
+    text-transform: uppercase;
+    color: lightgreen;
+}
+
+
+.detalle-portafolio {
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 20px;
+}
+
+
+.hero {
+    height: 600px;
+}
+
+.portafolio-detalle {
+    width: 500px;
+    
+}
+
+.java-figure {
+    width: 500px;
 }
