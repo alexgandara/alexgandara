@@ -13,11 +13,17 @@ body {
 }
 
 header {
+    max-width: 1400px;
     background: rgb(98, 94, 112);
     color: mistyrose;
     margin: 5px;
     padding: 5px;
     border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+
 }
 
 .header a {
@@ -27,12 +33,9 @@ header {
 }
 
 
-
-
-
-
 .hero
 {
+    max-width: 1400px;
     font-family: Caveat;
     height: 300px; 
     background-image: url("../images/gandara.png");
@@ -40,26 +43,17 @@ header {
     background-size: 225px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
-
-
     padding: 10px;
-    
-    
-    
-    
-    /*
-    color:rgb(138, 90, 34);
-    border: 1px solid rgb(39, 17, 26);
-    border-radius: 6px;
-    margin: 10px;
-    padding: 10px;*/
-
     display: flex;
     align-items: center;
+    flex-wrap: inherit;
+    margin: 0 auto;
+    margin-top: 10px;
+
+
+    
+
 } 
-
-
-
 
 
 .projecto01,
@@ -69,16 +63,33 @@ header {
 .portfolio,
 .contacto
 {
+
+
+    
+    max-width: 1400px;
+    margin: 0 auto;
+    display: inherit;
+    margin-top: 10px;
+    
+    /* justify-content: inherit; */
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
     border: 1px solid rgb(119, 51, 79);
     border-radius: 4px;
-    margin: 10px;
+    
     padding: 10px;
     background: rgb(219, 217, 208);
     font-family: 'Courier New', Courier, monospace;
+    
+   
 }
 
 .portfolio
 {
+    max-width: 1400px;
     background-image: url("../images/java_old.jpeg");
     background-size: 200px 200px;
     background-position-x: center;
@@ -88,6 +99,8 @@ header {
     margin: 10px;
     height: 420px; 
     background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 h1,
@@ -138,15 +151,27 @@ h4
 
 
 .footer {
+    max-width: 1400px;
+
     font-family: 'Times New Roman', Times, serif ;
     background-color: rgb(11, 105, 11);
     color: white;
     margin: 10px;
     padding: 5px;
     justify-content: space-between;
-
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     border-radius: 4px;
+    margin: 0 auto;
+    
+    margin-top: 10px;
+
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        /* border: 10px solid green */
+        
+    }
+}
