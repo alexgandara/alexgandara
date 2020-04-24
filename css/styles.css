@@ -53,7 +53,9 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     */
-
+    border: 2px solid rgb(189, 82, 127);
+    border-radius: 4px;
+    max-width: 1400px;
     
     background-color: rgb(184, 181, 192);
     background-size: 225px 300px;
@@ -100,25 +102,42 @@ header {
     
     max-width: 1400px;
     margin: 0 auto;
-    display: inherit;
+  
     margin-top: 10px;
     
-    /* justify-content: inherit; */
+/*
     align-items: inherit;
     height: inherit;
-    flex-wrap: inherit;
+    c
     align-items: center;
     justify-content: space-between;
     border: 1px solid rgb(119, 51, 79);
     border-radius: 4px;
-    
+  */
+  
+  
     padding: 10px;
     background: rgb(219, 217, 208);
     font-family: 'Courier New', Courier, monospace;
+
+    /* justify-content: inherit; */
+    /* align-items: inherit; */
     
-   
+    display:flex; 
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+
+    
 }
 
+
+.titulo 
+{
+    border: 1px solid rgb(94, 26, 54); 
+    max-width: 400px;
+    background-color: rgb(245, 218, 184);
+}
 .portfolio
 {
     max-width: 1400px;
